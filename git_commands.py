@@ -61,4 +61,5 @@ git diff --base <filename>
 
 git diff <sourcebranch> <targetbranch>
 
+17. Git untrack git rm -r --cached
 '''
