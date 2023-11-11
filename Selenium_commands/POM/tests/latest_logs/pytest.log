@@ -1,0 +1,33 @@
+20:33:16 DEBUG driver not found in PATH, trying Selenium Manager
+20:33:16 DEBUG Executing: C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser firefox
+20:33:17 DEBUG Using driver at: C:\Users\LENOVO\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+20:33:17 DEBUG Started executable: `geckodriver` in a child process with pid: 16840
+20:33:18 DEBUG POST http://localhost:50712/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true, "moz:debuggerAddress": true, "pageLoadStrategy": "normal"}}}
+20:33:18 DEBUG Starting new HTTP connection (1): localhost:50712
+20:33:27 DEBUG http://localhost:50712 "POST /session HTTP/1.1" 200 747
+20:33:27 DEBUG Remote response: status=200 | data={"value":{"sessionId":"5fa2c7a9-6cd1-4a24-8758-544f2850e037","capabilities":{"acceptInsecureCerts":true,"browserName":"firefox","browserVersion":"119.0.1","moz:accessibilityChecks":false,"moz:buildID":"20231106151204","moz:debuggerAddress":"127.0.0.1:50713","moz:geckodriverVersion":"0.33.0","moz:headless":false,"moz:platformVersion":"10.0","moz:processID":22756,"moz:profile":"C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofile2egUn4","moz:shutdownTimeout":60000,"moz:webdriverClick":true,"moz:windowless":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '747', 'date': 'Fri, 10 Nov 2023 16:33:20 GMT'})
+20:33:27 DEBUG Finished Request
+20:33:27 DEBUG POST http://localhost:50712/session/5fa2c7a9-6cd1-4a24-8758-544f2850e037/timeouts {"implicit": 10000}
+20:33:27 DEBUG http://localhost:50712 "POST /session/5fa2c7a9-6cd1-4a24-8758-544f2850e037/timeouts HTTP/1.1" 200 14
+20:33:27 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Fri, 10 Nov 2023 16:33:27 GMT'})
+20:33:27 DEBUG Finished Request
+20:33:27 DEBUG POST http://localhost:50712/session/5fa2c7a9-6cd1-4a24-8758-544f2850e037/url {"url": "https://www.6pm.com/"}
+20:33:31 DEBUG http://localhost:50712 "POST /session/5fa2c7a9-6cd1-4a24-8758-544f2850e037/url HTTP/1.1" 200 14
+20:33:31 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Fri, 10 Nov 2023 16:33:27 GMT'})
+20:33:31 DEBUG Finished Request
+20:33:31 DEBUG POST http://localhost:50712/session/5fa2c7a9-6cd1-4a24-8758-544f2850e037/element {"using": "link text", "value": "SHOES"}
+20:33:31 DEBUG http://localhost:50712 "POST /session/5fa2c7a9-6cd1-4a24-8758-544f2850e037/element HTTP/1.1" 200 88
+20:33:31 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"2e0547cb-f7b1-4bf2-a38a-e6be4f4593a2"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '88', 'date': 'Fri, 10 Nov 2023 16:33:31 GMT'})
+20:33:31 DEBUG Finished Request
+20:33:31 DEBUG POST http://localhost:50712/session/5fa2c7a9-6cd1-4a24-8758-544f2850e037/execute/sync {"script": "arguments[0].scrollIntoView();", "args": [{"element-6066-11e4-a52e-4f735466cecf": "2e0547cb-f7b1-4bf2-a38a-e6be4f4593a2"}]}
+20:33:31 DEBUG http://localhost:50712 "POST /session/5fa2c7a9-6cd1-4a24-8758-544f2850e037/execute/sync HTTP/1.1" 200 14
+20:33:31 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Fri, 10 Nov 2023 16:33:31 GMT'})
+20:33:31 DEBUG Finished Request
+20:33:31 DEBUG POST http://localhost:50712/session/5fa2c7a9-6cd1-4a24-8758-544f2850e037/element/2e0547cb-f7b1-4bf2-a38a-e6be4f4593a2/click {"id": "2e0547cb-f7b1-4bf2-a38a-e6be4f4593a2"}
+20:33:34 DEBUG http://localhost:50712 "POST /session/5fa2c7a9-6cd1-4a24-8758-544f2850e037/element/2e0547cb-f7b1-4bf2-a38a-e6be4f4593a2/click HTTP/1.1" 200 14
+20:33:34 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Fri, 10 Nov 2023 16:33:31 GMT'})
+20:33:34 DEBUG Finished Request
+20:33:35 DEBUG DELETE http://localhost:50712/session/5fa2c7a9-6cd1-4a24-8758-544f2850e037 {}
+20:33:39 DEBUG http://localhost:50712 "DELETE /session/5fa2c7a9-6cd1-4a24-8758-544f2850e037 HTTP/1.1" 200 14
+20:33:39 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Fri, 10 Nov 2023 16:33:34 GMT'})
+20:33:39 DEBUG Finished Request

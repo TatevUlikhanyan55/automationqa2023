@@ -1,0 +1,125 @@
+1699547705389	geckodriver	INFO	Listening on 127.0.0.1:58533
+1699547708450	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58534" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofilelOJu5r"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699547708860	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699547708955	Marionette	INFO	Listening on port 58541
+WebDriver BiDi listening on ws://127.0.0.1:58534
+Read port: 58541
+1699547709176	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1699547717953	geckodriver	INFO	Listening on 127.0.0.1:58553
+1699547721014	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58554" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofilebwf30k"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699547721624	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699547721709	Marionette	INFO	Listening on port 58561
+WebDriver BiDi listening on ws://127.0.0.1:58554
+Read port: 58561
+1699547721933	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58554/devtools/browser/a921aecf-8120-49c3-91f8-15bdfab41d42
+JavaScript warning: https://pagead2.googlesyndication.com/bg/4WwaGfWzeDAeGvs0ZrtmWMJUG7fu6zGPBJzQt4duOkA.js line 2 > eval line 7673 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1699547745678	Marionette	INFO	Stopped listening on port 58561
+JavaScript warning: https://s2.go-mpulse.net/boomerang/FNR7L-CZUHT-QTY2E-EDRYP-ZAEQY, line 10: Script terminated by timeout at:
+BOOMR_plugins_errors_wrap@https://s2.go-mpulse.net/boomerang/FNR7L-CZUHT-QTY2E-EDRYP-ZAEQY:10:182539
+
+Dynamically enable window occlusion 1
+1699630972731	geckodriver	INFO	Listening on 127.0.0.1:52117
+1699630975784	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52118" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofileVX9kpw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699630976334	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699630976437	Marionette	INFO	Listening on port 52126
+Read port: 52126
+WebDriver BiDi listening on ws://127.0.0.1:52118
+1699630976577	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52118/devtools/browser/f133df8f-d3fe-452d-ab42-c49ca6fc757c
+JavaScript warning: https://gum.criteo.com/syncframe?origin=rtus&topUrl=www.6pm.com#{%22uid%22:{%22value%22:null,%22origin%22:0},%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22value%22:null,%22origin%22:0},%22tld%22:%226pm.com%22,%22topUrl%22:%22www.6pm.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:719,%22requestId%22:%220.24578867525514836%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=rtus&topUrl=www.6pm.com#{%22uid%22:{%22value%22:null,%22origin%22:0},%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22value%22:null,%22origin%22:0},%22tld%22:%226pm.com%22,%22topUrl%22:%22www.6pm.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:719,%22requestId%22:%220.24578867525514836%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=rtus&topUrl=www.6pm.com#{%22uid%22:{%22value%22:null,%22origin%22:0},%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22value%22:null,%22origin%22:0},%22tld%22:%226pm.com%22,%22topUrl%22:%22www.6pm.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:719,%22requestId%22:%220.24578867525514836%22}:14:3642
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GOa2ZK97xVqw-WOSDw2lqG4V8l_qTiI5JNj0tnI6N88.js line 2 > eval line 4085 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1699631001161	Marionette	INFO	Stopped listening on port 52126
+Dynamically enable window occlusion 1
+1699633928067	geckodriver	INFO	Listening on 127.0.0.1:50518
+1699633931096	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50519" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofilefB5tNm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699633932536	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699633932754	Marionette	INFO	Listening on port 50528
+Read port: 50528
+WebDriver BiDi listening on ws://127.0.0.1:50519
+1699633932986	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50519/devtools/browser/58b68855-51c8-4597-9e44-4d5857239a1c
+1699633943594	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.6pm.com/marty-assets/marty-6pm.vendor.682123431aa0b7abd9f6.js, line 2: Script terminated by timeout at:
+76489/t.parse@https://www.6pm.com/marty-assets/marty-6pm.vendor.682123431aa0b7abd9f6.js:2:182279
+load@https://www.6pm.com/marty-assets/marty-6pm.vendor.682123431aa0b7abd9f6.js:2:598584
+12737/t.getZfcCookie@https://www.6pm.com/marty-assets/marty-6pm.vendor.682123431aa0b7abd9f6.js:2:782876
+12737/t.zfcSessionId@https://www.6pm.com/marty-assets/marty-6pm.vendor.682123431aa0b7abd9f6.js:2:783871
+I@https://www.6pm.com/marty-assets/marty-6pm.app.682123431aa0b7abd9f6.js:1:103192
+70363/b/<@https://www.6pm.com/marty-assets/marty-6pm.app.682123431aa0b7abd9f6.js:1:104232
+b@https://www.6pm.com/marty-assets/marty-6pm.app.682123431aa0b7abd9f6.js:1:104368
+cn@https://www.6pm.com/marty-assets/marty-6pm.app.682123431aa0b7abd9f6.js:1:432008
+38085/h/<@https://www.6pm.com/marty-assets/marty-6pm.vendor.682123431aa0b7abd9f6.js:2:995984
+38085/Y/</<@https://www.6pm.com/marty-assets/marty-6pm.vendor.682123431aa0b7abd9f6.js:2:1000584
+t@https://www.6pm.com/marty-assets/marty-6pm.vendor.682123431aa0b7abd9f6.js:2:996189
+
+1699633953162	Marionette	INFO	Stopped listening on port 50528
+JavaScript warning: https://www.zappos.com/marty-assets/marty-zappos.app.8b8c11ee83c10016e409.js, line 1: Script terminated by timeout at:
+g@https://www.zappos.com/marty-assets/marty-zappos.app.8b8c11ee83c10016e409.js:1:810719
+W@https://www.zappos.com/marty-assets/marty-zappos.app.8b8c11ee83c10016e409.js:1:816569
+a@https://www.zappos.com/marty-assets/marty-zappos.app.8b8c11ee83c10016e409.js:1:447223
+l@https://www.zappos.com/marty-assets/marty-zappos.app.8b8c11ee83c10016e409.js:1:447578
+97608/B<@https://www.zappos.com/marty-assets/marty-zappos.app.8b8c11ee83c10016e409.js:1:224775
+va@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:683353
+Qa@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:691561
+js@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:729453
+Ru@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:714145
+Iu@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:714068
+Su@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:711408
+64448/ti/<@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:669758
+60053/t.unstable_runWithPriority@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:865015
+Xo@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:669467
+ti@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:669705
+ei@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:669638
+Tu@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:711702
+notify@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:781767
+notifyNestedSubs@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:782179
+o@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:781602
+y@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:839884
+99565/oa/</</<@https://www.zappos.com/marty-assets/marty-zappos.app.8b8c11ee83c10016e409.js:1:595656
+84385/t.K3/</</<@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:837254
+10810/a/</</<@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:182171
+62166/b/c/</<@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:824068
+53894/r/</</<@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:837701
+dispatch@https://www.zappos.com/marty-assets/marty-zappos.vendor.8b8c11ee83c10016e409.js:2:841337
+58635/le/</<@https://www.zappos.com/marty-assets/marty-zappos.app.8b8c11ee83c10016e409.js:1:32517
+
+Dynamically enable window occlusion 1
+1699633997065	geckodriver	INFO	Listening on 127.0.0.1:50712
+1699634000128	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50713" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofile2egUn4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699634000614	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699634000826	Marionette	INFO	Listening on port 50722
+WebDriver BiDi listening on ws://127.0.0.1:50713
+Read port: 50722
+1699634001390	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50713/devtools/browser/a833347d-1e65-4554-9e00-79654aea105d
+JavaScript warning: https://gum.criteo.com/syncframe?origin=rtus&topUrl=www.6pm.com#{%22uid%22:{%22value%22:null,%22origin%22:0},%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22value%22:null,%22origin%22:0},%22tld%22:%226pm.com%22,%22topUrl%22:%22www.6pm.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:719,%22requestId%22:%220.6343025703803454%22}, line 14: Script terminated by timeout at:
+r.prototype.logPixel@https://gum.criteo.com/syncframe?origin=rtus&topUrl=www.6pm.com#{%22uid%22:{%22value%22:null,%22origin%22:0},%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22value%22:null,%22origin%22:0},%22tld%22:%226pm.com%22,%22topUrl%22:%22www.6pm.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:719,%22requestId%22:%220.6343025703803454%22}:14:3418
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=rtus&topUrl=www.6pm.com#{%22uid%22:{%22value%22:null,%22origin%22:0},%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22value%22:null,%22origin%22:0},%22tld%22:%226pm.com%22,%22topUrl%22:%22www.6pm.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:719,%22requestId%22:%220.6343025703803454%22}:14:3152
+r/<@https://gum.criteo.com/syncframe?origin=rtus&topUrl=www.6pm.com#{%22uid%22:{%22value%22:null,%22origin%22:0},%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22value%22:null,%22origin%22:0},%22tld%22:%226pm.com%22,%22topUrl%22:%22www.6pm.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:719,%22requestId%22:%220.6343025703803454%22}:14:3642
+
+1699634015623	Marionette	INFO	Stopped listening on port 50722
+JavaScript warning: https://www.6pm.com/marty-assets/marty-6pm.vendor.682123431aa0b7abd9f6.js, line 2: Script terminated by timeout at:
+_@https://www.6pm.com/marty-assets/marty-6pm.vendor.682123431aa0b7abd9f6.js:2:866338
+U@https://www.6pm.com/marty-assets/marty-6pm.vendor.682123431aa0b7abd9f6.js:2:867178
+60053/x.port1.onmessage@https://www.6pm.com/marty-assets/marty-6pm.vendor.682123431aa0b7abd9f6.js:2:865837
+
+Dynamically enable window occlusion 1
